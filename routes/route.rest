@@ -1,0 +1,28 @@
+GET http://localhost:3000/feedback
+
+
+####
+GET http://localhost:3000/feedback/61cd0617784cad52ac1e9866
+
+###
+
+POST http://localhost:3001/feedback
+Content-Type: application/json
+
+{
+    "rating": "3",
+    
+    "text": "keqing is hot"
+
+}
+
+###
+PUT http://localhost:3000/feedback/61d4fb7358d434c0ff535036
+Content-Type: application/json
+
+{
+    "rating": "3",
+    
+    "text": "keqing is hot"
+
+}
